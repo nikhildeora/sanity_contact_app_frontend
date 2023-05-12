@@ -1,0 +1,61 @@
+.home_main_div{
+    margin-top: 40px;
+}
+
+.home_add_button{
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 12px 23px;
+    border: none;
+    border-radius: 12px;
+}
+
+.home_add_button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 105, 105);
+}
+
+.home_contact_detail_main_div{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.home_contact_detail{
+    text-align: start;
+}
+
+.home_contact_detail>p{
+    margin: 2px;
+    font-weight: bold;
+}
+
+.home_list_each_item{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 9px;
+}
+
+.home_button_div button:nth-child(1){
+   background-color: green;
+   color: white;
+   border: none;
+   border-radius: 6px;
+   padding: 8px;
+   margin-right: 9px;
+}
+
+.home_button_div button:nth-child(2){
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 6px;
+   padding: 8px;
+   margin-right: 9px;
+}

@@ -1,0 +1,46 @@
+.add_contact_form{
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+.add_contact_addrefrence_button{
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 12px 23px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.add_contact_addrefrence_button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 105, 105);
+}
+
+.add_contact_form>input , .add_contact_form>select {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 21px;
+    padding: 9px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    border: 1px solid rgb(115, 113, 113);
+    outline: none;
+}
+
+.add_contact_form>input:nth-child(4){
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+.add_contact_form>input:nth-child(4):hover{
+    cursor: pointer;
+    background-color: rgb(3, 109, 109);
+}
